@@ -5,6 +5,10 @@
 
 ![Screenshot of the main screen](./screenshots/main-screen-ss.png)
 
+![Screenshot of terminal with tmux](./screenshots/terminal-with-tmux-ss.png)
+
+![Screenshot of main screen with rofi](./screenshots/rofi-ss.png)
+
 ## Apps Customized
 
 - Neovim
