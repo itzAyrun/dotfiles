@@ -1,3 +1,10 @@
+
+## Gallery
+
+![Screenshot with browser and terminal](./screenshots/terminal-and-browser-ss.png)
+
+![Screenshot of the main screen](./screenshots/main-screen-ss.png)
+
 ## Apps Customized
 
 - Neovim
@@ -9,10 +16,9 @@
 - Rofi
 - Tmux
 
-## Gallery
+## Credits
 
-![Screenshot with browser and terminal](./screenshots/terminal-and-browser-ss.png)
+I would like to acknowledge and thank the following repositories and creators whose dotfiles or configurations served as inspiration for this setup:
 
----
-
-![Screenshot of the main screen](./screenshots/main-screen-ss.png)
+- [ScarletFiles](https://github.com/RezeScarlet/ScarletFiles)
+- [typecraft-dev](https://github.com/typecraft-dev/dotfiles)
