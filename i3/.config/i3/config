@@ -219,7 +219,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 bindsym $mod+Shift+p exec --no-startup-id ~/.config/rofi/power_menu.sh
-bindsym $mod+slash exec --no-startup-id ~/.config/i3/cycle_workspaces.sh
+bindsym Mod1+Tab exec --no-startup-id ~/.config/i3/cycle_workspaces.sh
 bindsym $mod+Tab exec --no-startup-id i3-msg workspace back_and_forth
 
 # Start i3bar to display a workspace bar (plus the system information i3status
