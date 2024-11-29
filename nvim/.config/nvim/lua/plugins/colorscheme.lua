@@ -1,16 +1,12 @@
 return {
-    "rose-pine/neovim",
-    name = "rose-pine",
+    "cdmill/neomodern.nvim",
+    lazy = false,
+    priority = 1000,
     config = function()
-        require("rose-pine").setup({
-            variant = "auto",
-            styles = {
-                bold = false,
-                italic = false,
-                transparency = true,
-            }
+        require("neomodern").setup({
+            theme = "roseprime",
+            transparent = true,
         })
-
-        vim.cmd("colorscheme rose-pine")
+        require("neomodern").load()
     end,
 }
