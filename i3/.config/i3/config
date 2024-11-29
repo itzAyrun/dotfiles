@@ -20,7 +20,7 @@ font CascadiaCove Nerd Font 8
 #font pango:DejaVu Sans Mono 8
 
 exec_always --no-startup-id xrandr --output eDP-1 --brightness 1.5 --gamma 0.6:0.6:0.6
-exec_always --no-startup-id feh --no-fehbg --bg-fill ~/dotfiles/wallpapers/girl-staring-outside-from-her-balcony.png
+exec_always --no-startup-id feh --no-fehbg --bg-fill ~/dotfiles/wallpapers/linux-catppuccin.png
 exec_always --no-startup-id picom
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id ~/.config/polybar/scripts/polybar.sh
