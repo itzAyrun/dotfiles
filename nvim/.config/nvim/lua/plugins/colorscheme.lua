@@ -1,12 +1,14 @@
 return {
-    "cdmill/neomodern.nvim",
-    lazy = false,
+    "catppuccin/nvim",
+    name = "catppuccin",
     priority = 1000,
     config = function()
-        require("neomodern").setup({
-            theme = "roseprime",
-            transparent = true,
+        require("catppuccin").setup({
+            flavour = "mocha",
+            transparent_background = true,
+            no_bold = true,
         })
-        require("neomodern").load()
+
+        vim.cmd.colorscheme "catppuccin"
     end,
 }
