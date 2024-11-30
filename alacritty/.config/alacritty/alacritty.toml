@@ -22,5 +22,5 @@ style = "Regular"
 
 [general]
 import = [
-  "~/.config/alacritty/rose-pine.toml"
+  "~/.config/alacritty/catppuccin-mocha.toml"
 ]
