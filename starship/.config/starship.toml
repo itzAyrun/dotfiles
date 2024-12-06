@@ -66,16 +66,15 @@ style = '#7ed1fb' # yellow bold
 
 # Shows current git branch
 [git_branch]
-# symbol = ' '
-symbol = ' '
-format = '[//](black bold) [$symbol\[$branch\]]($style) '
+symbol = ' '
+format = '[//](black bold) [$symbol\[$branch\]]($style)'
 # truncation_length = 0
 # truncation_symbol = '…/'
 style = 'bold green'
 
 # Shows current git status
 [git_status]
-disabled = true
+disabled = false
 format = '[ $all_status $ahead_behind]($style) '
 style = 'bold green'
 conflicted = '🏳'
