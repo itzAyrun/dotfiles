@@ -2,8 +2,8 @@ set $mod Mod4
 
 # gaps
 for_window [class=".*"] border pixel 2
-gaps inner 13
-gaps outer 6
+gaps inner 6
+# gaps outer 6
 
 font CascadiaCove Nerd Font 8
 
