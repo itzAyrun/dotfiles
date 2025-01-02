@@ -31,6 +31,21 @@ vim.cmd([[set guicursor=n-v-c-i:block]])  -- Set the cursor to block for all mod
 vim.opt.clipboard:append('unnamedplus')
 vim.opt.swapfile = false
 
+-- Toggle search highlighting
+local function toggle_highlight()
+    if vim.o.hlsearch then
+        vim.o.hlsearch = false
+        -- print("Search highlighting disabled")
+    else
+        vim.o.hlsearch = true
+        -- print("Search highlighting enabled")
+    end
+end
+
+-- Map the toggle highlight fn to a keybinding and make it global
+vim.api.nvim_set_keymap("n", "<leader>h", ":lua toggle_highlight()<CR>", { noremap = true, silent = true })
+_G.toggle_highlight = toggle_highlight
+
 -- Setup lazy.nvim
 require("lazy").setup({
 	spec = {
