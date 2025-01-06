@@ -109,6 +109,7 @@ disabled = true
 symbol = '󰌠'
 python_binary = ['./venv/bin/python', 'python', 'python3', 'python2']
 format = '[//](black bold) [${symbol} ${pyenv_prefix}(${version} )(\($virtualenv\) )]($style) '
+disabled = true
 
 
 [nodejs]
