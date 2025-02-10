@@ -2,7 +2,7 @@
 TERM = "xterm-256color"
 
 [font]
-size = 7.0
+size = 8.0
 
 [window]
 opacity = 1.0
