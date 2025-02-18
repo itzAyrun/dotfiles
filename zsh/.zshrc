@@ -29,3 +29,6 @@ export PATH="$HOME/go/bin:$PATH"
 eval "$(starship init zsh)"
 
 export PATH=$PATH:/home/ayrun/.spicetify
+
+# Load .env file
+export $(grep -v '^#' ~/.env | xargs)
