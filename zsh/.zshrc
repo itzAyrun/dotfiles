@@ -32,3 +32,8 @@ export PATH=$PATH:/home/ayrun/.spicetify
 
 # Load .env file
 export $(grep -v '^#' ~/.env | xargs)
+
+# Keybindigs
+bindkey '^H' backward-kill-word
+bindkey '^[[1;5C' forward-word
+bindkey '^[[1;5D' backward-word
